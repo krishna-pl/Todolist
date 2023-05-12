@@ -1,0 +1,13 @@
+.form{padding: 25px; background-color: #c2d9e7; display: flex; }
+.input{flex:1 1 auto; border: 0; border-radius:4px; padding: 0 15px; font-size: 16px;}
+.input:visited{border:1px solid #C00}
+.button{ width: 140px; margin-left: 20px; font-size: 13px;
+    color: #FFF;
+    padding: 0px 20px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    background: #2cabe3;
+    border-radius: 4px; border: 0;}
+
+
