@@ -12,7 +12,7 @@ function NewUser({users, handeAddNewUser}) {
       const onSubmitHandeler = (e) => {
         e.preventDefault();
         //alert(addUser);
-        const newUser = {id: users.length+1, name:addUser}
+        const newUser = {id: new Date().getTime().toString(), name:addUser}
         //setUsers((prevUser) => [...prevUser, newUser]);
         handeAddNewUser(newUser);
         setAdduser('');
