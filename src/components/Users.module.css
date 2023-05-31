@@ -7,4 +7,4 @@
 .list li:hover a{color:#2cabe3;}
 .list li:last-of-type{padding:15px; border-bottom:0px solid #d2d2d2;}
 
-.deleteBtn{ position: absolute; top: 0; bottom:0; right:0; margin: auto; height: 20px; width: 20px; line-height: 20px; text-align: center; background-color: #C00; color: #FFF; cursor: pointer; border-radius:50%;}
+.deleteBtn{ position: absolute; top: 30px;  right:0; margin: auto; height: 20px; width: 20px; line-height: 20px; text-align: center; background-color: #C00; color: #FFF; cursor: pointer; border-radius:50%;}
