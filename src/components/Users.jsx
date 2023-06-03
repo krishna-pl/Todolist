@@ -7,7 +7,7 @@ function Users({users, deleteUser}) {
   return (
     <ul className={style.list}>
         {
-          users.map( (cat, index) => {
+          users.sort( (a,b) => a.category > b.category ? 1 : -1).map( (cat, index) => {
             return (
             <li  key={index} >
               <span onClick={() => {deleteUser((cat.id))}}  className={style.deleteBtn}>X</span>
